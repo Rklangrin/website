@@ -35,20 +35,18 @@ a:hover {
   margin-top: 0px;
   opacity: 0.9;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
-#header-icons {
-  margin-top: 10px; }
-  #header-icons ul {
-    list-style: none; }
-    #header-icons ul li {
-      display: inline-block;
-      margin-right: 10px; }
-      #header-icons ul li a {
-        opacity: 0.5; }
+#header-icons ul {
+  list-style: none; }
+  #header-icons ul li {
+    display: inline-block;
+    margin-right: 10px; }
+    #header-icons ul li a {
+      opacity: 0.5; }
 
 #header-nav {
-  margin-top: 10px;
   margin-right: 20px; }
   #header-nav ul {
     list-style: none; }
