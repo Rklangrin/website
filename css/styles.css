@@ -18,26 +18,22 @@
       #header-nav ul li a {
         opacity: 0.5; }
 
-div {
-  width: 100%; }
+div.slides {
+  padding: 100px;
+  height: 400px; }
 
-div#about {
-  background: url(../images/rainbow-edit.png) 0% 50% no-repeat fixed;
-  height: 400px;
-  width: 100%;
-  padding: 150px; }
+.center {
+  width: 50%;
+  margin: auto; }
 
-div#projects {
-  background: url(../images/patterns/dark_embroidery.png) repeat;
-  height: 400px;
-  width: 100%;
-  padding: 150px; }
+#about {
+  background: url(../images/rainbow-edit.png) 0% 50% no-repeat fixed; }
 
-div#contact-me {
-  background: url(../images/SCsunset-edit.png) 50% 80% no-repeat fixed;
-  height: 400px;
-  width: 100%;
-  padding: 150px; }
+#projects {
+  background: url(../images/patterns/wood_pattern.png) repeat; }
+
+#contact-me {
+  background: url(../images/SCsunset-edit.png) 50% 80% no-repeat fixed; }
 
 h1 {
   color: lightgreen;
