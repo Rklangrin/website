@@ -26,14 +26,30 @@
   </header>
 
   <div id="about" class="slides">
-    <div class="center">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 class="center about-tabs-container"> <a href="-" class="about-tabs">Work</a>  |  <a href="-" class="about-tabs">Play</a>  |  <a href="-" class="about-tabs">Jobs</a></h2>
+    <div class="center" id="work-tab">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="center" id="play-tab">
+      <p>
+        In rails, the Ajax request starts from the HTML that is initially loaded to the page. You can add an option, remote: true to the form_for/button_to/link_to view helpers. This will alter the type of request that is made to the server. You can see the difference in the dev tools if you look at the request-accept header (under the network tab), which tells the server what type of information it wants in return. Remote: true changes the accept header from requesting HTML to JS.
+
+        So now the server knows the client(the chrome browser) wants information back in the form of javascript. On the controller, you can add different options for how the server responds to different requests using the respond_to method.
+      </p>
+    </div>
+    <div class="center" id="jobs-tab">
+      <p>
+        he first line in any recursive function is generally going to be the base case (sometimes there is more than one base case). The base case is when you stop recursing. If you don't have a base case then the function will never stop calling itself and eventually the computer will run out of memory. In the example above, the recursion stops when the number being inputted into the function is equal to 1 or 2.
+
+        The code above is short and easy to read. The problem with it is when it's being called for the 20th number in the sequence. That number ends up being 6765. This means we added 1 to itself 6765 times. In this case, you are sacrificing readability for efficiency. The problem could be done more efficiently with iteration.
+      </p>
     </div>
   </div>
   <div id="projects" class="slides"></div>
